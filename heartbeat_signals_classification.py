@@ -358,7 +358,7 @@ with st.container():
 st.markdown('<div id="section-3"></div>', unsafe_allow_html=True)
 st.markdown("## 🚚代码和数据来源")
 with st.expander("📋程序源码"):
-    st.markdown("[☁️本程序的代码，内容包含数据处理，模型选择，模型训练和前端部署](https://www.google.com)")
+    st.markdown("[☁️本程序的代码，内容包含数据处理，模型选择，模型训练和前端部署](https://github.com/fanrouyi/heartbeat-signals-classification.git)")
 with st.expander("📂数据来源"):
     st.markdown(
         "[☁️模型训练使用的数据来源为天池数据集中的心跳信号数据集，本程序的模型使用了其中十万条样本](https://tianchi.aliyun.com/dataset/167192)")
